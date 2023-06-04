@@ -11,6 +11,8 @@
 
 <body>
 
+<?php include "partials/_nav.php" ?>
+
 <div class="row1 container mt-4">
     <h3 class="text-center text-danger">CRUD Application using PHP-OOPS, MySQL, AJAX, DataTable, bootstrap5.3</h3>
 </div>
