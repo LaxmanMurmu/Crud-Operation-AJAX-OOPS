@@ -10,13 +10,24 @@
 </head>
 
 <body>
-    <!-- Register Button -->
+
+<div class="row1 container mt-4">
+    <h3 class="text-center text-danger">CRUD Application using PHP-OOPS, MySQL, AJAX, DataTable, bootstrap5.3</h3>
+</div>
+
+<div class="row2 container mt-5" style="display: flex; justify-content: space-between;">
+    <div><h4>All Users in the Data Base</h4></div>
+    <div>
+         <!-- Register Button -->
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#insertModal">
-        Register
+        Add User
     </button>
+    </div>
+</div>
+   
 
     <!-- ========================================Table=============================================== -->
-    <div class="container border pt-3 mt-5">
+    <div class="container border pt-3 mt-3">
     <table id="userTable" class="display">
         <thead>
             <tr>
